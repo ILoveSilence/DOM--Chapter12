@@ -10,23 +10,18 @@ body{
   background-image: url(../images/background.jpg);
   background-attachment: fixed;
   background-position: top left;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   max-width: 80em;
-  background-size: cover;
-}
-#img{
-  height: 17em;
-}
-#img img{
-  width:100%;
-  height: 100%;
+  /* background-size: cover; */
 }
 header{
+  background-image: url(../images/guitarist.gif);
+  background-repeat: no-repeat;
+  background-position: bottom right;
   border-width: .1em;
-  /* border-style: solid;
-  border-bottom-width: 0; */
+  border-style: solid;
+  border-bottom-width: 0;
 }
-
 header nav{
   background-image: url(../images/navbar.gif);
   background-position: bottom left;
@@ -37,6 +32,14 @@ header nav{
   border-top-width: 0;
   padding-left: 10%;
 }
+/* #img{
+  height: 17em;
+}
+#img img{
+  width:100%;
+  height: 100%;
+} */
+
 header nav ul{
   width: 100%;
   overflow: hidden;
@@ -51,7 +54,6 @@ header nav li a{
   float: left;
   padding: .5em 2em;
   border-right: .1em solid;
-  width: 15%;
 }
 article{
   border-width: .1em;
@@ -60,9 +62,9 @@ article{
   padding: 2em 10%;
   line-height: 1.8em;
 }
-/* article img{
+article img{
   border-width: .1em;
   border-style: solid;
   outline-width: .1em;
   outline-style: solid;
-} */
+}

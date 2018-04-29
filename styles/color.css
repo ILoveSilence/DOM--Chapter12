@@ -19,8 +19,13 @@ a:active{
   color: #778;
   background-color: #ec8;
 }
+header{
+  color: #ec8;
+  background-color: #334;
+  border-color: #667;
+}
 header nav{
-  color: #445;
+  color: #455;
   background-color: #789;
   border-color: #667;
 }
@@ -49,6 +54,6 @@ article img{
   border-color: #ba9;
   outline-color: #dcb;
 }
-/* #imagegallery a{
+#imagegallery a{
   background-color: transparent;
-} */
+}
