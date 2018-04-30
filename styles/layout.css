@@ -7,7 +7,7 @@ section, header, article, nav{
 }
 body{
   margin: 1em 10%;
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/background.gif);
   background-attachment: fixed;
   background-position: top left;
   background-repeat: repeat-x;
@@ -32,13 +32,6 @@ header nav{
   border-top-width: 0;
   padding-left: 10%;
 }
-/* #img{
-  height: 17em;
-}
-#img img{
-  width:100%;
-  height: 100%;
-} */
 
 header nav ul{
   width: 100%;
@@ -67,4 +60,31 @@ article img{
   border-style: solid;
   outline-width: .1em;
   outline-style: solid;
+}
+
+/* 为每个页面添加不同的header背景图片 */
+#about header{
+  background-image: url("../images/lineup.gif");
+}
+#live header{
+  background-image: url("../images/basshead.gif");
+}
+#photos header{
+  background-image: url("../images/bassist.gif");
+}
+#contact header{
+  background-image: url("../images/drummer.gif");
+}
+
+/* 幻灯片样式 */
+#slideshow{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+#preview{
+  position: absolute;
+  border-width: 0;
+  outline-width: 0;
 }
