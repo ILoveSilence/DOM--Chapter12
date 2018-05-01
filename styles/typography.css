@@ -1,5 +1,5 @@
 body{
-  font-size: 76%;
+  font-size: 70%;
   font-family: "Helvetica","Arial",sans-serif;
 }
 
@@ -25,8 +25,13 @@ article p{
 }
 h1{
   font-family: "Georgia", "Time New Roman", sans-serif;
-  font: 1.4em normal;
+  font: 2.4em normal;
   margin-top: 1em;
+}
+h2{
+	font-family:"Georgia","Times New Roman",sans-serif;
+	font:1.8em normal;
+	margin-top:1em;
 }
 h3{
   font-family: "Georgia", "Time New Roman", sans-serif;
@@ -38,4 +43,12 @@ h3{
 }
 textarea {
   font-family: "Helvetica","Arial",sans-serif;
+}
+
+dt{
+  margin-right: 1em;
+}
+
+dd{
+  margin-right: 3em;
 }

@@ -88,3 +88,38 @@ article img{
   border-width: 0;
   outline-width: 0;
 }
+
+/* 幻灯片边框样式 */
+#frame{
+  position:absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+/* photo页面图片排列 */
+#imagegallery li{
+  display: inline;
+}
+
+/* live表格样式 */
+td{
+  padding: .5em 3em;
+}
+dl{
+  overflow: hidden;
+}
+dt {
+  float: left;
+}
+dd{
+  float: left;
+}
+
+/* contact 页面相关*/
+label{
+  display:block;
+}
+fieldset {
+  border: 0;
+}
